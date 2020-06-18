@@ -1,0 +1,62 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+li, a , button {
+ text-decoration: none;
+}
+header{
+ display: flex;
+}
+.nav_links li{
+ display: inline-block;
+ padding: 0vh 2vh;
+}
+
+.container{
+ padding-top: 4vh;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+
+.container1{
+ width: 50%;
+ height: 60vh;
+ border: 1px solid black;
+}
+
+.container2{
+ width: 50%;
+ height: 60vh;
+ border: 1px solid black;
+}
+
+
+.advantages{
+ display: flex;
+}
+.column0{
+ width: 25%;
+ height: 30vh;
+ border: 1px solid black;
+}
+.column1{
+ width: 25%;
+ height: 30vh;
+ border: 1px solid black;
+
+}
+.column2{
+ width: 25%;
+ height: 30vh;
+ border: 1px solid black;
+}
+
+.column3{
+ width: 25%;
+ height: 30vh;
+ border: 1px solid black;
+}
