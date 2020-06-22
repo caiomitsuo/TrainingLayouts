@@ -1,62 +1,120 @@
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-li, a , button {
- text-decoration: none;
+li,
+a,
+button {
+  text-decoration: none;
 }
-header{
+header {
+  display: flex;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0vh 2vh;
+}
+
+.container {
+  padding-top: 3vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_container1 {
+  width: 50%;
+  height: 60vh;
+}
+
+.work {
+  width: 100%;
+  height: 60vh;
+}
+
+.container2 {
+  width: 50%;
+  height: 60vh;
+  background-color: #f4f5fa;
+}
+
+.container2_inside {
+  display: block;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: 15vh;
+}
+h1 {
+  font-size: 40px;
+}
+
+.container2_inside li {
+  list-style: none;
+  color: #4b4d5a;
+}
+
+.btn_inside {
+  width: 10vw;
+  height: 5vh;
+  background-color: #eb1c24;
+  color: white;
+  border: none;
+}
+.advantages__container{
+width: 100%;
+margin-left: 25%;
+}
+.column0 {
+  width: 25%;
+  height: 30vh;
+  border: 1px solid black;
+}
+.column1 {
+  width: 25%;
+  height: 30vh;
+  border: 1px solid black;
+}
+.column2 {
+  width: 25%;
+  height: 30vh;
+  border: 1px solid black;
+}
+
+.column3 {
+  width: 25%;
+  height: 30vh;
+  border: 1px solid black;
+}
+
+.container_services{
  display: flex;
 }
-.nav_links li{
- display: inline-block;
- padding: 0vh 2vh;
-}
 
-.container{
- padding-top: 4vh;
- width: 100%;
- display: flex;
- justify-content: space-between;
-}
-
-.container1{
- width: 50%;
- height: 60vh;
- border: 1px solid black;
-}
-
-.container2{
- width: 50%;
- height: 60vh;
- border: 1px solid black;
-}
-
-
-.advantages{
- display: flex;
-}
-.column0{
+.column_services{
  width: 25%;
- height: 30vh;
- border: 1px solid black;
-}
-.column1{
- width: 25%;
- height: 30vh;
- border: 1px solid black;
-
-}
-.column2{
- width: 25%;
- height: 30vh;
+ height: 40vh;
  border: 1px solid black;
 }
 
-.column3{
+.column_services1{
  width: 25%;
- height: 30vh;
+ height: 40vh;
+ border: 1px solid black;
+}
+
+.column_services2{
+ width: 25%;
+ height: 40vh;
+ border: 1px solid black;
+}
+
+.column_services3{
+ width: 25%;
+ height: 40vh;
  border: 1px solid black;
 }
