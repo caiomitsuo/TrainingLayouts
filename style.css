@@ -1,18 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
-
-li,
-a,
-button {
-  text-decoration: none;
-}
-header {
-  display: flex;
+body{
+  background-color: #F4F5FA;
 }
 .nav_links li {
   display: inline-block;
@@ -20,10 +14,9 @@ header {
 }
 
 .container {
+  display: flex;
   padding-top: 3vh;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .img_container1 {
@@ -35,39 +28,46 @@ header {
   width: 100%;
   height: 60vh;
 }
-
 .container2 {
   width: 50%;
   height: 60vh;
-  background-color: #f4f5fa;
-}
-
-.container2_inside {
-  display: block;
+  background-color: #F4F5FA;
+  display: flex;
   flex-direction: column;
-  position: absolute;
-  margin-left: 15vw;
-  margin-top: 15vh;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left:10vw;
+}
+.h2container{
+  font-size: 45px;
+}
+.pcontainer{
+  margin-top:2vw;
+  color:#757580;
+}
+.p{
+  margin-top: 2
+}
+p{
+  font-family: 'Raleway', sans-serif;
 }
 h1 {
   font-size: 40px;
 }
-
-.container2_inside li {
-  list-style: none;
-  color: #4b4d5a;
-}
-
 .btn_inside {
-  width: 10vw;
-  height: 5vh;
-  background-color: #eb1c24;
-  color: white;
-  border: none;
+    margin-top: 2vw;
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    background-color: #EB1C24;
+    color: #FBD5D5;
+    padding: 1.5vh;
+
 }
-.advantages__container{
-width: 100%;
-margin-left: 25%;
+.icon_button{
+margin-top: 10p
 }
 .column0 {
   width: 25%;
@@ -117,4 +117,73 @@ margin-left: 25%;
  width: 25%;
  height: 40vh;
  border: 1px solid black;
+}
+
+.container_about{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_about_inside{
+  width: 50%;
+  height: 60vh;
+  background-color: #f4f5fa;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+}
+.advantages__container{
+  width:75%;
+  height: 80vh;
+  margin-left: 25%;
+  background-color:#F4F5FA ;
+  display: flex;
+  flex-direction: row;
+}
+.advantages_row1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  width: 33%;
+}
+
+h2{
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-size: 2.7vw;
+  color:#2E3040;
+}
+
+.advantages_row2{
+  width: 33%;
+  padding-top: 22vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  list-style: none;
+}
+
+.advantages_row3{
+  width: 33%;
+  padding-top:22vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
+.fotter{
+  margin-top: 2vh;
+}
+
+.link_fotter{
+  text-decoration: none;
+  color: #ED353D;
+  text-transform: uppercase;
+  margin-left:4vw;
 }
