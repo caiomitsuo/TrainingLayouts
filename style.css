@@ -8,7 +8,7 @@
 
 body {
   background-color: #f4f5fa;
-  color: #555;
+  color: black;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
@@ -57,10 +57,10 @@ body {
   justify-content: center;
 }
 
-.header__phone{
+.header__phone {
   display: block;
   height: 18px;
-  margin-right:7px;
+  margin-right: 7px;
 }
 
 .header__lang {
@@ -75,7 +75,60 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.header__lang:hover{
+.header__lang:hover {
   background-color: firebrick;
   color: white;
+}
+
+.hero {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.hero__image {
+  width: 50%;
+}
+
+.hero__image img {
+  display: block;
+  width: 100%;
+}
+
+.hero__info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 8vw;
+}
+
+.hero__title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 62px;
+  line-height: 1;
+}
+
+.hero__text {
+  width: 80%;
+  font-size: 28px;
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+
+.hero__button {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: firebrick;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+}
+
+.hero__button:hover {
+  background-color: black;
 }
