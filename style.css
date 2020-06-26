@@ -295,20 +295,20 @@ body {
   .about {
     flex-direction: column;
   }
-  
+
   .about__info {
     width: 100%;
     padding: 0 8vw 50px;
   }
-  
+
   .about__text {
     font-size: 14px;
   }
-  
+
   .about__link {
     margin-right: 30px;
   }
-  
+
   .about__image {
     width: 100%;
   }
