@@ -22,7 +22,7 @@ body{
 }
 
 .header__container{
- width: 90vw;
+ width: 83vw;
  max-width: 1440px;
  margin: 0 auto;
  display: flex;
@@ -103,7 +103,12 @@ line-height: 1.5;
 margin-top: 10px;
 margin-bottom: 20px ;
 }
-
+.services__header{
+  width: 73.5vw;
+}
+.header__services__left{
+ text-transform: uppercase;
+}
 .btn__left{
   display: inline-block;
   padding: 20px 30px;
@@ -128,7 +133,7 @@ margin-bottom: 20px ;
 
 .services{
   padding: 100px 0 50px;
-  margin-left: 10vw;
+  margin-left: 13vw;
   margin-right: 10vw;
 }
 
@@ -153,20 +158,25 @@ margin-bottom: 20px ;
 }
 .service{
   display: flex;
+  flex-direction: row;
   margin-top: 20px;
 }
 .service__reference{
+  text-transform: uppercase;
   margin-bottom: 20px ;
   
 }
 .service__container__list{
   width: 15vw;
-  margin-left: 20px;
+  margin-left: 1vw;
+}
 
+.service__text{
+  color: #8C90A4;
 }
 
 .service__btn{
-  margin-left: 3.5vw;
+  margin-left: 3.5vw ;
   display: inline-block;
   padding: 60px 65px;
   border-radius: 4px;
@@ -177,7 +187,7 @@ margin-bottom: 20px ;
 
 .footer{
   margin-left: 10vw;
-  width: 75vw;
+  width: 76.5vw;
 }
 
 
