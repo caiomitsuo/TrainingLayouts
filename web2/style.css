@@ -245,21 +245,13 @@ justify-content: space-between;
 }
 @media (max-width: 1440px) {
   .hero__info {
-    padding: 0 4vw;
+    padding: 0 5vw;
   }
 
   .hero__title {
-    font-size: 42px;
+    font-size: 35px;
   }
 
-  .hero__text {
-    width: 100%;
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-  .about__info {
-    padding: 0 2vw 0 7.75vw;
-  }
 }
 @media (max-width: 768px){
   .header{
