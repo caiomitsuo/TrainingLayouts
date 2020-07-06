@@ -37,6 +37,9 @@ body{
 .header__logo{
  color:#5282E3;
 }
+.header__logo__trials{
+  font-size: 32px;
+}
 .header__links{
  text-decoration: none;
  display: inline-block;
